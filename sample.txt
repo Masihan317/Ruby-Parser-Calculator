@@ -1,0 +1,56 @@
+Script started on Thu Jun  1 21:10:26 2023
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ ruby calc.rb
+Welcome to Calculator!
+> .
+There's one invalid token somewhere. Skipping that token.
+> _
+There's one invalid token somewhere. Skipping that token.
+> 3+8
+11.0
+> x = 7+(9*4) /10**1
+x is assigned to the value 10.6
+> clear x
+The variable x has been cleared.
+> list
+PI = 3.141592653589793
+The above are all of the variables stored.
+> y=2**3-1+(3-2)
+y is assigned to the value 8.0
+> list
+PI = 3.141592653589793
+y = 8.0
+The above are all of the variables stored.
+> cos(PI)
+-1.0
+> sin(2)
+0.9092974268256817
+> tan(2*PI)
+-2.4492935982947064e-16
+> 4e+7*1
+40000000.0
+> list
+PI = 3.141592653589793
+y = 8.0
+The above are all of the variables stored.
+> sqrt(y)
+2.8284271247461903
+> y
+8.0
+> 2
+2.0
+> z
+Error: The variable z is undefined
+> z=5+9
+z is assigned to the value 14.0
+> z
+14.0
+> 
+> quit
+bash-3.2$ exit
+exit
+
+Script done on Thu Jun  1 21:12:11 2023
